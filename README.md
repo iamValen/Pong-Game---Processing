@@ -1,2 +1,7 @@
 # Pong-game---Processing-Java-
-very simple pong game in processing using java
+Very simple Pong in processing Java
+
+2 Players
+
+Player 1 -> w/s
+Player 2 -> UP_Arrow/Down_Arrow
