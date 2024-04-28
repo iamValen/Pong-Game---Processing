@@ -5,3 +5,6 @@ Very simple Pong in processing Java
 
 Player 1 -> w/s
 Player 2 -> UP_Arrow/Down_Arrow
+
+
+Don't change/delete the sketch file.

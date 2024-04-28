@@ -15,8 +15,8 @@ class Ball
   
   PVector Collisions(PVector linearV)
   {
-    if((player1.x+40 >= this.pos.x && this.pos.y<player1.y+90 && this.pos.y>player1.y-90) ||
-       (player2.x-40 <= this.pos.x && this.pos.y<player2.y+90 && this.pos.y>player2.y-90))
+    if((player1.x+40 >= this.pos.x && player1.x+30 <= this.pos.x && this.pos.y<player1.y+90 && this.pos.y>player1.y-90) ||
+       (player2.x-40 <= this.pos.x && player2.x-30 >= this.pos.x && this.pos.y<player2.y+90 && this.pos.y>player2.y-90))
     {
       if (this.linearV.x < 0) 
       {
